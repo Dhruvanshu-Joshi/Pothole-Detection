@@ -22,11 +22,11 @@ Basically we use 2 camera at known certain distance to find out the depth of the
 
 This concept is based on our human eye where the brain knows where the two eyes are and percieves image depth accordingly.
 
-![reference 1](https://www.youtube.com/watch?v=O7B2vCsTpC0)
+[reference 1](https://www.youtube.com/watch?v=O7B2vCsTpC0)
 
-![reference 2](https://www.youtube.com/watch?v=EDeHyb21L2M)
+[reference 2](https://www.youtube.com/watch?v=EDeHyb21L2M)
 
-![reference 3](https://www.youtube.com/watch?v=bRkUGqsz6SI&t=119s)
+[reference 3](https://www.youtube.com/watch?v=bRkUGqsz6SI&t=119s)
 
 An ir dot pattern sensor is also provided in intel realsense camera so that a dotted pattern is produced by which we can also perform depth calculation for smooth walls(because smooth walls have no other features) and general depth images with more accuracy.
 
