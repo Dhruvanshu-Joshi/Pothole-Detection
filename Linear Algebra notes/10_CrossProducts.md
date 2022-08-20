@@ -36,3 +36,38 @@ method:
 
 The vector thus obtained is the cross product of the two vectors perpendicular to both of them.
 
+## 11_Fancy explanation 
+
+![cp7](cp7.png)
+
+1) Define a 3d to 1d linear transformation in terms of vector v and vector w
+
+2)Find its dyal vector
+
+3)Show that this dual is vector v cross w
+
+ ![cp8](cp8.png)
+
+The function f can be defined as some function which calculates the volume bounded by the two vectors and a arbitrary [x y z](vertical) vector.
+
+This is a linear function and hence dual.
+
+To convert 3d to 1d the function f must be a linear transformation on that arbitrary vector about a 1 cross 3 matrix.
+
+![cp9](cp9.png)
+
+By duality , there exist some vector such that the dot product of the two vectors is equivalent to the linaer transformation of the arbitrary vector about the 1 cross 3 mstrix.
+![cp9](cp10.png)
+
+Therefore the cross product of two vectors gives a vector whose dot product with an arbitrary vector xyz gives the signed volume of the parallelopiped enclosed by the vector xyz and the two vectors.
+
+**Geometrical Representation**
+
+The dot product of vector p with an arbitrary vector xyz is the product of length of projection of that vector p on vector xyz  and the length of vector xyz. 
+
+Hence volume can be represented as 
+![cp9](cp11.png) 
+
+This is same as taking dot product of xyz vector with a vector that is perpendicular to v and w and equal in length to the area of parrallelogram b/w v and w.
+![cp9](cp12.png)
+
