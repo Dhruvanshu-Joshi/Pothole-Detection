@@ -55,7 +55,7 @@ Columns of a matrix tell where the basis vectors land after transformation.**Col
 
 Full Rank means that the Rank is equal to the maximum number of transformation.
 
-**Null space** or **Kernel** of a matrix are a setof all possible vectors that become zero vectors or null vectors after transformation that is they land on the origin.
+**Null space** or **Kernel** of a matrix are a set of column vectors whose linear transformation about the given vector gives a zero vector. Since origin is always at same position during a linear transformation, a null space always consist of a zero vector.
 
 ![img12](img12.png)
 
