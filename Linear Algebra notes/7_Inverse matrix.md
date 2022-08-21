@@ -59,5 +59,5 @@ Full Rank means that the Rank is equal to the maximum number of transformation.
 
 ![img12](img12.png)
 
-https://media.discordapp.net/attachments/1006253032973021295/1010970343743168572/unknown.png
+![img13](https://media.discordapp.net/attachments/1006253032973021295/1010970343743168572/unknown.png)
 
