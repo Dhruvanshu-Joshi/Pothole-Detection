@@ -1,6 +1,6 @@
 [Source_Paper](https://johnwlambert.github.io/stereo/)
 
-Additional helpfull resources:
+Additional helpful resources:
 
   [SAD](https://en.wikipedia.org/wiki/Sum_of_absolute_differences)
   
