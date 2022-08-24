@@ -178,7 +178,7 @@ Camera calibration errors would also cause problems.
 
 ## **Solution**
 
-## MC-CNN
+ ## MC-CNN
 
-Computing the Stereo Matching Cost with a Convolutional Neural Network introduced the idea of training a network to learn how to classify 2 patches as a positive vs. a negative patch.
+ Computing the Stereo Matching Cost with a Convolutional Neural Network introduced the idea of training a network to learn how to classify 2 patches as a positive vs. a negative patch.
 
