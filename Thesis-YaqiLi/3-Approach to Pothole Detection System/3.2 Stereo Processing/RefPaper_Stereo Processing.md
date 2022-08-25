@@ -71,3 +71,32 @@ To avoid overflow, the minimum path cost is subtracted from the equation.
 Hence final cost of pixel p at disparity d is calculated a sum of all costs from all directions:
 
 ![sp.2.6](sp.2.7.png)
+
+## step 3: **Disparity Calculation**
+
+All the pixels in an image that corresponds to the minimum cost contribute to the disparity image.
+
+For the stereo image
+ pair, each disparity of Dr q (the disparity at pixel q in right image) is compared to its corresponding disparity of Dl p (the disparity at pixel p in left image). 
+
+Dp = Dlp if |Dlp - Drq| <= 1
+
+In all other case , disparity is said to differ mad be equal to Dinv which is D invalid.
+
+Dp = Dinv
+
+Doubt: What is meant by disparity at pixel q in left image and right image? 
+
+If pixel p in left image correspond to pixel q in right image then the disparity is given as difference of x-coordinate of pixel p and pixel q.
+
+Then naturally both pixel p and q will lie in at same positions in both image and hence disparity Dp = distance b/w pixel p and q?
+
+## step 4: *Disparity Refinement*
+
+The disparity map obtained above contains many error.
+
+To eliminate them we can use intensity consistent disparity selection and discontinuity preserving interpolation.
+
+The advantages of these methods are that they are independent of the used stereo matching method.
+
+Besides these approaches, median filtering is useful to remove the remaining irregularities and additionally smoothen the disparity map.
