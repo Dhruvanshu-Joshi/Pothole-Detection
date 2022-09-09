@@ -20,7 +20,7 @@ Dependent variable corresponding to the independent variable
 Consider that there are ‘n’ data points:  
 ![image](https://user-images.githubusercontent.com/103961320/189433999-1c43b7fe-bb58-45c9-9c61-b29061026404.png)  
 
-Example:  
+### Example:  
 Consider Tom(owner of a retail shop) found the price of different T-shirts vs the number of T-shirts sold at his shop over a period of one week.   
 ![image](https://user-images.githubusercontent.com/103961320/189440069-8fe1a19a-82a4-4d45-be85-48c02f158802.png)  
   
@@ -34,7 +34,7 @@ y = 1.518 x 8 + 0.305 = 12.45 T-shirts => 13 T-shirts
   
 The least squares regression method works by minimizing the sum of the square of the errors as small as possible. The distance between the line of best fit and the error must be minimized as much as possible.  
   
-### Points To Remember  
+## Points To Remember  
 -The data must be free of outliers because they might lead to a biased and wrongful line of best fit.  
 -The line of best fit can be drawn iteratively until you get a line with the minimum possible squares of errors.  
 -This method works well even with non-linear data.  
