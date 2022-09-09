@@ -74,7 +74,7 @@ Step 5: Plotting the line of best fit
     plt.legend()
     plt.show()
 
-        ![ed2](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/09/Regression-Analysis-Demo-Plot-Least-Squares-Regression-Method-Edureka.png)
+   ![ed2](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/09/Regression-Analysis-Demo-Plot-Least-Squares-Regression-Method-Edureka.png)
 
 Step 6: Model Evaluation
 
