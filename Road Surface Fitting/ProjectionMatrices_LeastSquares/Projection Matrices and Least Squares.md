@@ -32,7 +32,7 @@ we get:
    
    C + 3D = 2
     
- ![P5](p5.png)
+ ![P5](P5.png)
  
  replace 3 with 2 in soln matrix.
  
