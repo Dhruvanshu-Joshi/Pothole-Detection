@@ -67,7 +67,7 @@ Clone the repo
 ### Execution  
 -	Connect the OAK-D camera   
 -	Run [Save_Image]() code to capture the stereo images.  
--	Run [Rectification_Disparity]() code to get the rectified image and then its disparity map as well  
+-	Run [Rectification_Disparity]() code to get the disparity map  
 -	For all further activities, run []() code  
 
 
