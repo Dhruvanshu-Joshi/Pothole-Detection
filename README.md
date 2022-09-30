@@ -85,7 +85,10 @@ Simplified code structure
 ![Pothole_Detection_Flowchart](https://user-images.githubusercontent.com/103961320/193153591-f62cc7c7-1151-419b-acc2-73f2bedf3319.png)
 
 <!-- RESULTS AND DEMO -->  
-## Results and Demo  
+## Results and Demo
+![Result_image_1](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix7.png)
+
+![Result_image_2](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix8.png)
 
 <!-- FUTURE WORK -->  
 ## Future Work  
