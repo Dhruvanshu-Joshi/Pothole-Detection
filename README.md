@@ -23,7 +23,7 @@ Detecting road potholes using OAK-D camera
 ## About The Project   
 
 ### Aim   
-This project aims at detecting Potholes present on the road surface and then show whether there is a single pothole or there are multiple potholes present in the region.  
+Potholes are bowl-shaped openings on the road that are caused by the combined effect of wear-and-tear and weathering of the road. Potholes are not only main cause of car accidents, but also can be fatal to motorcycles. Drivers might see the pothole before they pass it, it is usually too late for them to react. Keeping this in mind , our project aims to locate the potholes present on a road through the input image and provide its distance in cm from the camera. 
 
 ###  Description   
 We have used OAK-D camera to get the monochromatic stereo images of the surface which are then rectified using the inbuilt functioning of the camera. We have implemented stereo image processing algorithms to generate disparity maps and then labelled the appropriate areas in the image as pothole using the connected component labelling algorithm.  
@@ -56,13 +56,18 @@ You can create a virtual environment referring [this](https://docs.luxonis.com/e
     - [numpy](https://numpy.org/install/)   
 `pip install numpy`  
     - [Matplotlib](https://matplotlib.org/stable/index.html#installation)  
-	`pip install matplotlib`  
+	`pip install matplotlib` 
+
+
+	- Modulling
+	
+		`pip install ipynb` 
 
 ### Installation   
-Clone the repo      
-    ```git
+Clone the repo   
+
     git clone https://github.com/Dhruvanshu-Joshi/Pothole-Detection.git
-    ```
+    
 
 ### Execution  
 -	Connect the OAK-D camera   
