@@ -37,6 +37,58 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
 
 ### File Structure  
 ```
+📦Pothole-Detection
+ ┣ 📂Assets                           #contains images taken from the left-right stereo camera
+ ┃ ┗ 📂Images
+ ┃ ┃ ┣ 📜left_image1.png
+ ┃ ┃ ┣ 📜left_image2.png
+ ┃ ┃ ┣ 📜left_image3.png
+ ┃ ┃ ┣ 📜left_image4.png
+ ┃ ┃ ┣ 📜left_image5.png
+ ┃ ┃ ┣ 📜left_image6.png
+ ┃ ┃ ┣ 📜left_image7.png
+ ┃ ┃ ┣ 📜rightt_image1.png
+ ┃ ┃ ┣ 📜rightt_image2.png
+ ┃ ┃ ┣ 📜rightt_image3.png
+ ┃ ┃ ┣ 📜rightt_image4.png
+ ┃ ┃ ┣ 📜rightt_image5.png
+ ┃ ┃ ┣ 📜rightt_image6.png
+ ┃ ┃ ┗ 📜rightt_image7.png
+ ┣ 📂Results
+ ┃ ┗ 📂Disparity		      #contains depth map in form of .npy file generated from the Oak-D camera
+ ┃ ┃ ┣ 📜dispimage_7.npy
+ ┃ ┃ ┣ 📜dispimage_8.npy
+ ┃ ┃ ┣ 📜image7.png
+ ┃ ┃ ┗ 📜image8.png
+ ┃ ┗ 📂Pothole Detection	      #contains final result with detected potholes
+ ┃ ┃ ┣ 📜Resultwith21Matrix7.png
+ ┃ ┃ ┗📜Resultwith21Matrix8.png
+ ┣ 📂notes                            
+ ┃ ┣ 📂Dhruvanshu_notes		      #contains notes created by Dhruvanshu
+ ┃ ┗ 📂Prachi_notes		      #contains notes created by Dhruvanshu
+ ┣ 📂src                              #contains sorce codes
+ ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
+ ┃ ┃ ┣ 📜depth_image_0.npy
+ ┃ ┃ ┣ 📜depth_image_1.npy
+ ┃ ┃ ┣ 📜depth_image_2.npy
+ ┃ ┃ ┣ 📜depth_image_3.npy
+ ┃ ┃ ┣ 📜depth_image_4.npy
+ ┃ ┃ ┣ 📜image_0.npy
+ ┃ ┃ ┣ 📜image_1.npy
+ ┃ ┃ ┣ 📜image_2.npy
+ ┃ ┃ ┣ 📜image_3.npy
+ ┃ ┣ 📜Boxed.ipynb
+ ┃ ┣ 📜DepthGenerator.ipynb
+ ┃ ┣ 📜Detection.ipynb
+ ┃ ┣ 📜Labelling.ipynb
+ ┃ ┣ 📜MinimizeError.ipynb
+ ┃ ┣ 📜Pothole_Detection.ipynb
+ ┃ ┣ 📜Pothole_Detection.py
+ ┃ ┣ 📜Result.ipynb
+ ┃ ┣ 📜SurfaceFit.ipynb
+ ┃ ┣ 📜data.ipynb
+ ┃ ┗ 📜main.ipynb
+ ┗ 📜README.md
 ```
 
 
