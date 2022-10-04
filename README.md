@@ -62,9 +62,174 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┃ ┗ 📜image8.png
  ┃ ┗ 📂Pothole Detection	      #contains final result with detected potholes
  ┃ ┃ ┣ 📜Resultwith21Matrix7.png
- ┃ ┃ ┗📜Resultwith21Matrix8.png
+ ┃ ┃ ┗ 📜Resultwith21Matrix8.png
  ┣ 📂notes                            
  ┃ ┣ 📂Dhruvanshu_notes		      #contains notes created by Dhruvanshu
+ ┃ ┃ ┣ 📂Jhon Lambert's Paper
+ ┃ ┃ ┃ ┣ 📜Paper by jhon lambert.md
+ ┃ ┃ ┃ ┣ 📜ref.md
+ ┃ ┃ ┃ ┣ 📜s1.png
+ ┃ ┃ ┃ ┣ 📜s2.png
+ ┃ ┃ ┃ ┣ 📜s3.png
+ ┃ ┃ ┃ ┣ 📜s4.png
+ ┃ ┃ ┃ ┣ 📜s5.png
+ ┃ ┃ ┃ ┣ 📜s6.png
+ ┃ ┃ ┃ ┣ 📜s7.png
+ ┃ ┃ ┃ ┣ 📜s8.png
+ ┃ ┃ ┃ ┣ 📜s9.png
+ ┃ ┃ ┃ ┣ 📜s10.png
+ ┃ ┃ ┃ ┗ 📜s11.png
+ ┃ ┃ ┣ 📂Linear Algebra notes
+ ┃ ┃ ┃ ┣ 📜10_CrossProducts.md
+ ┃ ┃ ┃ ┣ 📜13_Change of basis.md
+ ┃ ┃ ┃ ┣ 📜14)Eigenvectors and Eigenvalues.md
+ ┃ ┃ ┃ ┣ 📜3_Linear transformation and Matrices note.md
+ ┃ ┃ ┃ ┣ 📜4_Multiplication.md
+ ┃ ┃ ┃ ┣ 📜5_Three dimensional linear transformati.md
+ ┃ ┃ ┃ ┣ 📜6_Determinant.md
+ ┃ ┃ ┃ ┣ 📜7_Inverse matrix.md
+ ┃ ┃ ┃ ┣ 📜8)Non-Squre matrices as transformations.md
+ ┃ ┃ ┃ ┣ 📜9_Dot products and duality.md
+ ┃ ┃ ┃ ┣ 📜Cramer's rule.md
+ ┃ ┃ ┃ ┣ 📜LA1.jpg
+ ┃ ┃ ┃ ┣ 📜LAchp2.jpg
+ ┃ ┃ ┃ ┣ 📜La2.jpg
+ ┃ ┃ ┃ ┣ 📜La3.jpg
+ ┃ ┃ ┃ ┣ 📜Linear algebra intro.md
+ ┃ ┃ ┃ ┣ 📜T1.png
+ ┃ ┃ ┃ ┣ 📜T3.png
+ ┃ ┃ ┃ ┣ 📜a1.png
+ ┃ ┃ ┃ ┣ 📜cb1.png
+ ┃ ┃ ┃ ┣ 📜cb2.png
+ ┃ ┃ ┃ ┣ 📜cb3.png
+ ┃ ┃ ┃ ┣ 📜cb4.png
+ ┃ ┃ ┃ ┣ 📜cb5.png
+ ┃ ┃ ┃ ┣ 📜cb6.png
+ ┃ ┃ ┃ ┣ 📜cp1.png
+ ┃ ┃ ┃ ┣ 📜cp2.png
+ ┃ ┃ ┃ ┣ 📜cp3.png
+ ┃ ┃ ┃ ┣ 📜cp4.png
+ ┃ ┃ ┃ ┣ 📜cp5.png
+ ┃ ┃ ┃ ┣ 📜cp6.png
+ ┃ ┃ ┃ ┣ 📜cp7.png
+ ┃ ┃ ┃ ┣ 📜cp8.png
+ ┃ ┃ ┃ ┣ 📜cp9.png
+ ┃ ┃ ┃ ┣ 📜cp10.png
+ ┃ ┃ ┃ ┣ 📜cp11.png
+ ┃ ┃ ┃ ┣ 📜cp12.png
+ ┃ ┃ ┃ ┣ 📜cr1.png
+ ┃ ┃ ┃ ┣ 📜cr2.png
+ ┃ ┃ ┃ ┣ 📜cr3.png
+ ┃ ┃ ┃ ┣ 📜cr4.png
+ ┃ ┃ ┃ ┣ 📜cr5.png
+ ┃ ┃ ┃ ┣ 📜cr6.png
+ ┃ ┃ ┃ ┣ 📜d1.png
+ ┃ ┃ ┃ ┣ 📜d2.png
+ ┃ ┃ ┃ ┣ 📜d3.png
+ ┃ ┃ ┃ ┣ 📜d4.png
+ ┃ ┃ ┃ ┣ 📜d5.png
+ ┃ ┃ ┃ ┣ 📜d6.png
+ ┃ ┃ ┃ ┣ 📜d7.png
+ ┃ ┃ ┃ ┣ 📜dp1.png
+ ┃ ┃ ┃ ┣ 📜dp2.png
+ ┃ ┃ ┃ ┣ 📜dp3.png
+ ┃ ┃ ┃ ┣ 📜dp4.png
+ ┃ ┃ ┃ ┣ 📜dp5.png
+ ┃ ┃ ┃ ┣ 📜dp6.png
+ ┃ ┃ ┃ ┣ 📜dp7.png
+ ┃ ┃ ┃ ┣ 📜dp8.png
+ ┃ ┃ ┃ ┣ 📜dp9.png
+ ┃ ┃ ┃ ┣ 📜ee1.png
+ ┃ ┃ ┃ ┣ 📜ee2.png
+ ┃ ┃ ┃ ┣ 📜ee3.png
+ ┃ ┃ ┃ ┣ 📜ee4.png
+ ┃ ┃ ┃ ┣ 📜ee5.png
+ ┃ ┃ ┃ ┣ 📜ee6.png
+ ┃ ┃ ┃ ┣ 📜ee7.png
+ ┃ ┃ ┃ ┣ 📜ee8.png
+ ┃ ┃ ┃ ┣ 📜ee9.png
+ ┃ ┃ ┃ ┣ 📜ee10.png
+ ┃ ┃ ┃ ┣ 📜im1.png
+ ┃ ┃ ┃ ┣ 📜img1.png
+ ┃ ┃ ┃ ┣ 📜img2.png
+ ┃ ┃ ┃ ┣ 📜img3.png
+ ┃ ┃ ┃ ┣ 📜img4.png
+ ┃ ┃ ┃ ┣ 📜img5.png
+ ┃ ┃ ┃ ┣ 📜img6.png
+ ┃ ┃ ┃ ┣ 📜img7.png
+ ┃ ┃ ┃ ┣ 📜img8.png
+ ┃ ┃ ┃ ┣ 📜img9.png
+ ┃ ┃ ┃ ┣ 📜img10.png
+ ┃ ┃ ┃ ┣ 📜img11.png
+ ┃ ┃ ┃ ┣ 📜img12.png
+ ┃ ┃ ┃ ┣ 📜mm1.png
+ ┃ ┃ ┃ ┣ 📜mm2.png
+ ┃ ┃ ┃ ┣ 📜mm3.png
+ ┃ ┃ ┃ ┣ 📜mm4.png
+ ┃ ┃ ┃ ┣ 📜ns1.png
+ ┃ ┃ ┃ ┣ 📜ns2.png
+ ┃ ┃ ┃ ┣ 📜ns3.png
+ ┃ ┃ ┃ ┣ 📜ns4.png
+ ┃ ┃ ┃ ┣ 📜ns5.png
+ ┃ ┃ ┃ ┣ 📜ns6.png
+ ┃ ┃ ┃ ┣ 📜t2.png
+ ┃ ┃ ┃ ┣ 📜t3.png
+ ┃ ┃ ┃ ┣ 📜t4.png
+ ┃ ┃ ┃ ┣ 📜t5.png
+ ┃ ┃ ┃ ┣ 📜t6.png
+ ┃ ┃ ┃ ┣ 📜t7.png
+ ┃ ┃ ┃ ┣ 📜t8.png
+ ┃ ┃ ┃ ┗ 📜t9.png
+ ┃ ┃ ┣ 📂OakD camera
+ ┃ ┃ ┃ ┣ 📜OakD.md
+ ┃ ┃ ┃ ┗ 📜oakd1.png
+ ┃ ┃ ┣ 📂Road Surface Fitting
+ ┃ ┃ ┃ ┣ 📂Main Theory
+ ┃ ┃ ┃ ┃ ┣ 📜Fitting_Methods.md
+ ┃ ┃ ┃ ┃ ┣ 📜bf1.png
+ ┃ ┃ ┃ ┃ ┣ 📜bf2.png
+ ┃ ┃ ┃ ┃ ┣ 📜11.png
+ ┃ ┃ ┃ ┃ ┣ 📜l2.png
+ ┃ ┃ ┃ ┃ ┣ 📜l3.png
+ ┃ ┃ ┃ ┃ ┣ 📜l4.png
+ ┃ ┃ ┃ ┃ ┣ 📜ref.md
+ ┃ ┃ ┃ ┃ ┣ 📜wl1.png
+ ┃ ┃ ┃ ┃ ┗ 📜wl2.png
+ ┃ ┃ ┃ ┣ 📂ProjectionMatrices_LeastSquares
+ ┃ ┃ ┃ ┃ ┣ 📜Projection Matrices and Least Squares.md
+ ┃ ┃ ┃ ┃ ┣ 📜P1.png
+ ┃ ┃ ┃ ┃ ┣ 📜P2.png
+ ┃ ┃ ┃ ┃ ┣ 📜p3.png
+ ┃ ┃ ┃ ┃ ┣ 📜p4.png
+ ┃ ┃ ┃ ┃ ┣ 📜P5.png
+ ┃ ┃ ┃ ┃ ┣ 📜p6.png
+ ┃ ┃ ┃ ┃ ┣ 📜p7.png
+ ┃ ┃ ┃ ┃ ┣ 📜p8.png
+ ┃ ┃ ┃ ┃ ┣ 📜p9.png
+ ┃ ┃ ┃ ┃ ┣ 📜p10.png
+ ┃ ┃ ┃ ┃ ┣ 📜p11.png
+ ┃ ┃ ┃ ┃ ┣ 📜p12.png
+ ┃ ┃ ┃ ┃ ┣ 📜p13.png
+ ┃ ┃ ┃ ┃ ┣ 📜P14.png
+ ┃ ┃ ┃ ┃ ┣ 📜p15.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Robust Regression
+ ┃ ┃ ┃ ┃ ┣ 📜Robust Regression.md
+ ┃ ┃ ┃ ┃ ┣ 📜rr1.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr2.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr3.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr4.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr5.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr6.png
+ ┃ ┃ ┃ ┃ ┣ 📜rr7.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref.md
+ ┃ ┃ ┃ ┗ 📂Sample_Code
+ ┃ ┃ ┃ ┃ ┣ 📜Best_line_code_tutorial.md
+ ┃ ┃ ┃ ┃ ┣ 📜ed1.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┣ 📂Thesis-YaqiLi
+ ┃ ┃ ┣ 📂camera caliberation playlist
+ ┃ ┃ ┗ 📜# What is STEREO.md
  ┃ ┗ 📂Prachi_notes		      #contains notes created by Dhruvanshu
  ┣ 📂src                              #contains sorce codes
  ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
