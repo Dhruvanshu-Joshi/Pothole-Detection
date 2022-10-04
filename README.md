@@ -409,7 +409,16 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┃ ┃ ┃ ┣ 📜sn5.png
  ┃ ┃ ┃ ┃ ┗ 📜ref
  ┃ ┃ ┃ ┗ 📜reference
- ┃ ┗ 📂Prachi_notes		      #contains notes created by Dhruvanshu
+ ┃ ┗ 📂Prachi_notes		      #contains notes created by Prachi
+ ┃ ┃ ┣ 📂Road_Surface_Fitting
+ ┃ ┃ ┃ ┣ 📜Least_Squares_Fitting.md
+ ┃ ┃ ┃ ┣ 📜Linear_Square_Regression.md
+ ┃ ┃ ┃ ┗ 📜least_square_method.md
+ ┃ ┃ ┣ 📜3b1b Notes upto lect 9.pdf
+ ┃ ┃ ┣ 📜3b1b notes from dot product till end.pdf
+ ┃ ┃ ┣ 📜Paper notes.pdf
+ ┃ ┃ ┣ 📜Paper-Yaqi-Li.pdf
+ ┃ ┃ ┗ 📜Sterio_notes.md
  ┣ 📂src                              #contains sorce codes
  ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
  ┃ ┃ ┣ 📜depth_image_0.npy
