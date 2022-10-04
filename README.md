@@ -473,14 +473,14 @@ You can create a virtual environment referring [this](https://docs.luxonis.com/e
     - [numpy](https://numpy.org/install/)   
 `pip install numpy`  
     - [Matplotlib](https://matplotlib.org/stable/index.html#installation)  
-	`pip install matplotlib`  
+`pip install matplotlib`  
     - Modulling
+`pip install ipynb`
 
-	`pip install ipynb`
+### Installation  
 
-### Installation   
-Clone the repo      
-    
+Clone the repo   
+
     git clone https://github.com/Dhruvanshu-Joshi/Pothole-Detection.git
     
 
