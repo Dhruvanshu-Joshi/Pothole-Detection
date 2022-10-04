@@ -40,6 +40,10 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
 📦Pothole-Detection
  ┣ 📂Assets                           #contains images taken from the left-right stereo camera
  ┃ ┗ 📂Images
+ ┃ ┃ ┣ 📜LeftImage_1.png
+ ┃ ┃ ┣ 📜LeftImage_2.png
+ ┃ ┃ ┣ 📜RightImage_1.png
+ ┃ ┃ ┣ 📜RightImage_2.png
  ┃ ┃ ┣ 📜left_image1.png
  ┃ ┃ ┣ 📜left_image2.png
  ┃ ┃ ┣ 📜left_image3.png
@@ -58,9 +62,13 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┗ 📂Disparity		      #contains depth map in form of .npy file generated from the Oak-D camera
  ┃ ┃ ┣ 📜dispimage_7.npy
  ┃ ┃ ┣ 📜dispimage_8.npy
+ ┃ ┃ ┣ 📜pothole_depth1.npy
+ ┃ ┃ ┣ 📜pothole_depth2.npy
  ┃ ┃ ┣ 📜image7.png
  ┃ ┃ ┗ 📜image8.png
  ┃ ┗ 📂Pothole Detection	      #contains final result with detected potholes
+ ┃ ┃ ┣ 📜Pothole_depthimage_1.png
+ ┃ ┃ ┣ 📜Pothole_depthimage_2.png
  ┃ ┃ ┣ 📜Resultwith21Matrix7.png
  ┃ ┃ ┗ 📜Resultwith21Matrix8.png
  ┣ 📂notes                            
@@ -490,13 +498,21 @@ Clone the repo
 <!--Flowchart -->  
 ## Algorithm Flowchart  
 Simplified code structure    
-![Pothole_Detection_Flowchart](https://user-images.githubusercontent.com/103961320/193153591-f62cc7c7-1151-419b-acc2-73f2bedf3319.png)
+<img src ="https://user-images.githubusercontent.com/103961320/193153591-f62cc7c7-1151-419b-acc2-73f2bedf3319.png" width="50%" height="30%"/> 
 
 <!-- RESULTS AND DEMO -->  
 ## Results and Demo
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/LeftImage_1.png" width="30%" height="30%"/> <img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/RightImage_1.png" width="30%" height="30%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Results/Pothole%20Detection/Pothole_depthimage_1.png" width="50%" height="50%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/LeftImage_2.png" width="30%" height="30%"/> <img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/RightImage_2.png" width="30%" height="30%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Results/Pothole%20Detection/Pothole_depthimage_2.png" width="50%" height="50%"/>
+
 ![Result_image_1](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix7.png)
 
-![Result_image_2](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix8.png)
 
 <!-- FUTURE WORK -->  
 ## Future Work  
