@@ -65,6 +65,7 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┃ ┗ 📜Resultwith21Matrix8.png
  ┣ 📂notes                            
  ┃ ┣ 📂Dhruvanshu_notes		      #contains notes created by Dhruvanshu
+ ┃ ┃ ┣ 📜# What is STEREO.md
  ┃ ┃ ┣ 📂Jhon Lambert's Paper
  ┃ ┃ ┃ ┣ 📜Paper by jhon lambert.md
  ┃ ┃ ┃ ┣ 📜ref.md
@@ -228,8 +229,186 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┃ ┃ ┃ ┣ 📜ed1.png
  ┃ ┃ ┃ ┃ ┗ 📜ref
  ┃ ┃ ┣ 📂Thesis-YaqiLi
- ┃ ┃ ┣ 📂camera caliberation playlist
- ┃ ┃ ┗ 📜# What is STEREO.md
+ ┃ ┃ ┃ ┣ 📂Intoduction
+ ┃ ┃ ┃ ┃ ┗ 📂Background
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜2 Background.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜s1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜s2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜s3.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂3-Approach to Pothole Detection System
+ ┃ ┃ ┃ ┃ ┣ 📂3.1_Stereo Camera Caliberation
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜3.1_Stereo Camera Caliberation.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc4.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc5.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜scc6.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┃ ┣ 📂3.2 Stereo Processing
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜RefPaper_Stereo Processing.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.4.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.5.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.6.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp.2.7.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp0.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp4.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp5.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜sp6.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┃ ┣ 📂3.3 Disparity Image Reprojection
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Disparity Image Reprojection.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜d3d1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜d3d2.jpg
+ ┃ ┃ ┃ ┃ ┣ 📂3.4 Road Surface Fitting
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜# Road surface Fiiting.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rf1.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┃ ┣ 📂3.5 Road Pothole Labelling
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Road Pothole Labelling.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rf2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rf3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rpl3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rpl4.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜rpl5.png 
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┃ ┣ 📜3_Approach to Pothole Detection System.md
+ ┃ ┃ ┃ ┃ ┣ 📜ap1.png
+ ┃ ┃ ┃ ┃ ┣ 📜ap2.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂4-Experimental setup
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Experimental Setup.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜es1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜es2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜es3.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂5- Result
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Result.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R1.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R2.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R3.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R4.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R5.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R6.png
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜R7.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂6-Conclusion
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Conclusion.md
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂7&8-end
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Possible upgrades and Code Implementation.md
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┗ 📂camera caliberation playlist
+ ┃ ┃ ┃ ┣ 📂Camera Calibration
+ ┃ ┃ ┃ ┃ ┣ 📜3_Camera caliberation.md
+ ┃ ┃ ┃ ┃ ┣ 📜cc1.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc2.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc3.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc4.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc5.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc6.png
+ ┃ ┃ ┃ ┃ ┣ 📜cc7.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Computing Depth
+ ┃ ┃ ┃ ┃ ┣ 📜12_Computing Depth.md
+ ┃ ┃ ┃ ┃ ┣ 📜cd1.png
+ ┃ ┃ ┃ ┃ ┣ 📜cd2.png
+ ┃ ┃ ┃ ┃ ┣ 📜cd3.png
+ ┃ ┃ ┃ ┃ ┣ 📜cd4.png
+ ┃ ┃ ┃ ┃ ┣ 📜cd5.png
+ ┃ ┃ ┃ ┃ ┣ 📜cd6.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Epipolar Geometry
+ ┃ ┃ ┃ ┃ ┣ 📜8_Epipolar Geometry.md
+ ┃ ┃ ┃ ┃ ┣ 📜eg1.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg2.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg3.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg4.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg5.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg6.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg7.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg8.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg9.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg10.png
+ ┃ ┃ ┃ ┃ ┣ 📜eg11.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Estimating Fundamental Matrices
+ ┃ ┃ ┃ ┃ ┣ 📜10_Estimating Fundamental Matrices.md
+ ┃ ┃ ┃ ┃ ┣ 📜efm1.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm2.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm3.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm4.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm5.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm6.png
+ ┃ ┃ ┃ ┃ ┣ 📜efm7.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Finding Correspondences
+ ┃ ┃ ┃ ┃ ┣ 📜11_finding Correspondences.md
+ ┃ ┃ ┃ ┃ ┣ 📜fc1.png
+ ┃ ┃ ┃ ┃ ┣ 📜fc2.png
+ ┃ ┃ ┃ ┃ ┣ 📜fc3.png
+ ┃ ┃ ┃ ┃ ┣ 📜fc4.png
+ ┃ ┃ ┃ ┃ ┣ 📜fc5.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Intrinsic and Extrinsic Matrices
+ ┃ ┃ ┃ ┃ ┣ 📜4_Intrinsic and Extrinsic Matrix.md
+ ┃ ┃ ┃ ┃ ┣ 📜ei1.png
+ ┃ ┃ ┃ ┃ ┣ 📜ei2.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Linear Camera Model
+ ┃ ┃ ┃ ┃ ┣ 📜2_Linear camera model.md
+ ┃ ┃ ┃ ┃ ┣ 📜lcm1.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm2.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm3.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm4.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm5.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm6.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm7.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm8.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm9.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm10.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm11.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm12.png
+ ┃ ┃ ┃ ┃ ┣ 📜lcm13.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Overview
+ ┃ ┃ ┃ ┃ ┗ 📂Uncalibrated Stereo
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜6_Uncaliberated stereo overview.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜uc1.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Overview
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜1_overview.md
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Problem of Uncalibrated Stereo
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜7_Problem in Uncaliberated Stereo.md
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜uc2.png
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂Simple Stereo
+ ┃ ┃ ┃ ┃ ┣ 📜5_Stereo.md
+ ┃ ┃ ┃ ┃ ┣ 📜s1.png
+ ┃ ┃ ┃ ┃ ┣ 📜s2.png
+ ┃ ┃ ┃ ┃ ┣ 📜s3.png
+ ┃ ┃ ┃ ┃ ┣ 📜s4.png
+ ┃ ┃ ┃ ┃ ┣ 📜s5.png
+ ┃ ┃ ┃ ┃ ┣ 📜s6.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┣ 📂stereo vision in nature
+ ┃ ┃ ┃ ┃ ┣ 📜9_stereo vision in nature.md
+ ┃ ┃ ┃ ┃ ┣ 📜sn1.png
+ ┃ ┃ ┃ ┃ ┣ 📜sn2.png
+ ┃ ┃ ┃ ┃ ┣ 📜sn3.png
+ ┃ ┃ ┃ ┃ ┣ 📜sn4.png
+ ┃ ┃ ┃ ┃ ┣ 📜sn5.png
+ ┃ ┃ ┃ ┃ ┗ 📜ref
+ ┃ ┃ ┃ ┗ 📜reference
  ┃ ┗ 📂Prachi_notes		      #contains notes created by Dhruvanshu
  ┣ 📂src                              #contains sorce codes
  ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
