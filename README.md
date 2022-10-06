@@ -29,10 +29,12 @@ Potholes are bowl-shaped openings on the road that are caused by the combined ef
 We have used OAK-D camera to get the monochromatic stereo images of the surface which are then rectified using the inbuilt functioning of the camera. We have implemented stereo image processing algorithms to generate disparity maps and then labelled the appropriate areas in the image as pothole using the connected component labelling algorithm.  
 
 ### Tech Stack  
-- [OpenCV](https://opencv.org/)  
+- [OpenCV](https://opencv.org/) 
+- [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)  
 - [Scikit Learn](https://scikit-learn.org/stable/)  
-- [DepthAI](https://docs.luxonis.com/en/latest/)  
+- [DepthAI](https://docs.luxonis.com/en/latest/) 
+- [Jupyter notebook](https://jupyter.org)
 
 
 ### File Structure  
@@ -475,7 +477,8 @@ You can create a virtual environment referring [this](https://docs.luxonis.com/e
     - [Matplotlib](https://matplotlib.org/stable/index.html#installation)  
 `pip install matplotlib`  
     - Modulling
-`pip install ipynb`
+    
+        `pip install ipynb`
 
 ### Installation  
 
