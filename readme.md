@@ -58,7 +58,7 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┣ 📂notes                            
  ┃ ┣ 📂Dhruvanshu_notes		      #contains notes created by Dhruvanshu
  ┃ ┗ 📂Prachi_notes		      #contains notes created by Prachi
- ┣ 📂src                              #contains sorce codes
+ ┣ 📂SRC                             #contains sorce codes
  ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
  ┃ ┃ ┣ 📜depth_image_0.npy
  ┃ ┃ ┣ 📜depth_image_1.npy
@@ -69,6 +69,8 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┃ ┣ 📜image_1.npy
  ┃ ┃ ┣ 📜image_2.npy
  ┃ ┃ ┣ 📜image_3.npy
+ ┃ ┃ ┣ 📜testcase1.npy
+ ┃ ┃ ┗ 📜testcase2.npy
  ┃ ┣ 📜Boxed.ipynb
  ┃ ┣ 📜CameraInfo
  ┃ ┣ 📜DepthGenerator.ipynb
@@ -84,7 +86,25 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
  ┃ ┣ 📜data.ipynb
  ┃ ┣ 📜depth-saving.py
  ┃ ┗ 📜main.ipynb
- ┗ 📜README.md
+ ┃ ┣ 📜Boxed.py
+ ┃ ┣ 📜DepthGenerator.py
+ ┃ ┣ 📜Detection.py
+ ┃ ┣ 📜Get_Left_Right.py
+ ┃ ┣ 📜Labelling.py
+ ┃ ┣ 📜MinimizeError.py
+ ┃ ┣ 📜Pothole_Detection.py
+ ┃ ┣ 📜MonoImages.py
+ ┃ ┣ 📜Result.py
+ ┃ ┣ 📜SurfaceFit.py
+ ┃ ┣ 📜data.py
+ ┃ ┣ 📜main.py
+ ┃ ┣ 📂depth-sav                    #Used to generate depth from Oak-D camera
+ ┃ ┃ ┣ 📜depth-sav.py
+ ┃ ┃ ┣ 📜image_0.npy
+ ┃ ┃ ┣ 📜image_1.npy
+ ┃ ┃ ┗ 📜image_2.npy
+ ┃ ┗ 📂asset_npys
+ ┗ 📜readme.md
 ```
 
 
