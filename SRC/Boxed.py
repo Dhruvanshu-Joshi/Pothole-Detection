@@ -11,11 +11,6 @@ import math
 def Rectangle(depth,diff_5,single,disparity_pl): 
     height = depth.shape[0]
     width = depth.shape[1]
-    # We draw a rectangle around these potholes and also display its distnce
-    # disparity_rect = np.zeros((height,width))
-    # for i in range(height):
-    #     for j in range(width):
-    #         disparity_rect[i][j] = depth[i][j]
     top=[]
     bottom=[]
     left =[]
@@ -47,25 +42,10 @@ def Rectangle(depth,diff_5,single,disparity_pl):
                     break
         left.append(proxy2[0])
         right.append(proxy2[len(proxy2)-1])
-    # a =1
     for x in range(len(single)):
         start_point = (left[x]-5 , top[x]-5)
         end_point = (right[x]+5 , bottom[x]+5)
         start_point_txt = (left[x]-5 , top[x]-25)
         start_point_txt1 = (left[x]-5 , top[x]-10)
         color = (255, 0, 0)
-
-        # Line thickness of 2 px
-        # thickness = 2
-        # txt = 'Pothole '+str(a)
-        # txt1 = 'depth: '+str(avg_disp)
-        # Using cv2.rectangle() method
-        # Draw a rectangle with thickness of 2 px
-        # disparity_rect = cv2.rectangle(disparity_rect, start_point, end_point, color, thickness)
-        # disparity_rect = cv2.putText(disparity_rect, txt , start_point_txt,
-        #                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 1)
-        # disparity_rect = cv2.putText(disparity_rect, txt1 , start_point_txt1,
-        #                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 1)
-        # a=a+1
-    # return disparity_rect ,top,bottom,right,left
     return top,bottom,right,left

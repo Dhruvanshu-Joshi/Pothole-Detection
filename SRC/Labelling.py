@@ -10,7 +10,6 @@ import math
 from datetime import datetime
 
 def pothole_labelling(depth,diff_5):
-    start = datetime.now()
     # We have successfully detected the potholes now and now wish to label them so that they are identified as seperate potholes
     # We create a binary image with limits(0,255) so as to fit the labels
     height = depth.shape[0]
@@ -53,9 +52,4 @@ def pothole_labelling(depth,diff_5):
     #Single contains parent value with duplication removed
     single = [] 
     [single.append(x) for x in mom if x not in single]
-    print(single)
-    
-    end = datetime.now()
-    td = (end - start).total_seconds() * 10**3
-    print(f"The time of execution for labelling is : {td:.03f}ms")
     return single , disparity_pl

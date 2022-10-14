@@ -29,14 +29,62 @@ Potholes are bowl-shaped openings on the road that are caused by the combined ef
 We have used OAK-D camera to get the monochromatic stereo images of the surface which are then rectified using the inbuilt functioning of the camera. We have implemented stereo image processing algorithms to generate disparity maps and then labelled the appropriate areas in the image as pothole using the connected component labelling algorithm.  
 
 ### Tech Stack  
-- [OpenCV](https://opencv.org/)  
+- [OpenCV](https://opencv.org/) 
+- [Numpy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)  
 - [Scikit Learn](https://scikit-learn.org/stable/)  
-- [DepthAI](https://docs.luxonis.com/en/latest/)  
+- [DepthAI](https://docs.luxonis.com/en/latest/) 
+- [Jupyter notebook](https://jupyter.org)
 
 
 ### File Structure  
 ```
+📦Pothole-Detection
+ ┣ 📂Assets                           #contains images taken from the left-right stereo camera
+ ┃ ┗ 📂Images
+ ┣ 📂Results
+ ┃ ┗ 📂Disparity		      #contains depth map in form of .npy file generated from the Oak-D camera
+ ┃ ┃ ┣ 📜dispimage_7.npy
+ ┃ ┃ ┣ 📜dispimage_8.npy
+ ┃ ┃ ┣ 📜pothole_depth1.npy
+ ┃ ┃ ┣ 📜pothole_depth2.npy
+ ┃ ┃ ┣ 📜image7.png
+ ┃ ┃ ┗ 📜image8.png
+ ┃ ┗ 📂Pothole Detection	      #contains final result with detected potholes
+ ┃ ┃ ┣ 📜Pothole_depthimage_1.png
+ ┃ ┃ ┣ 📜Pothole_depthimage_2.png
+ ┃ ┃ ┣ 📜Resultwith21Matrix7.png
+ ┃ ┃ ┗ 📜Resultwith21Matrix8.png
+ ┣ 📂notes                            
+ ┃ ┣ 📂Dhruvanshu_notes		      #contains notes created by Dhruvanshu
+ ┃ ┗ 📂Prachi_notes		      #contains notes created by Prachi
+ ┣ 📂src                              #contains sorce codes
+ ┃ ┣ 📂asset_npys		      #contains depth map in form of npys
+ ┃ ┃ ┣ 📜depth_image_0.npy
+ ┃ ┃ ┣ 📜depth_image_1.npy
+ ┃ ┃ ┣ 📜depth_image_2.npy
+ ┃ ┃ ┣ 📜depth_image_3.npy
+ ┃ ┃ ┣ 📜depth_image_4.npy
+ ┃ ┃ ┣ 📜image_0.npy
+ ┃ ┃ ┣ 📜image_1.npy
+ ┃ ┃ ┣ 📜image_2.npy
+ ┃ ┃ ┣ 📜image_3.npy
+ ┃ ┣ 📜Boxed.ipynb
+ ┃ ┣ 📜CameraInfo
+ ┃ ┣ 📜DepthGenerator.ipynb
+ ┃ ┣ 📜Detection.ipynb
+ ┃ ┣ 📜Get_Camera_Info.py
+ ┃ ┣ 📜Get_Left_Right.py
+ ┃ ┣ 📜Labelling.ipynb
+ ┃ ┣ 📜MinimizeError.ipynb
+ ┃ ┣ 📜Pothole_Detection.ipynb
+ ┃ ┣ 📜Pothole_Detection.py
+ ┃ ┣ 📜Result.ipynb
+ ┃ ┣ 📜SurfaceFit.ipynb
+ ┃ ┣ 📜data.ipynb
+ ┃ ┣ 📜depth-saving.py
+ ┃ ┗ 📜main.ipynb
+ ┗ 📜README.md
 ```
 
 
@@ -56,14 +104,13 @@ You can create a virtual environment referring [this](https://docs.luxonis.com/e
     - [numpy](https://numpy.org/install/)   
 `pip install numpy`  
     - [Matplotlib](https://matplotlib.org/stable/index.html#installation)  
-	`pip install matplotlib` 
+`pip install matplotlib`  
+    - Modulling
+    
+        `pip install ipynb`
 
+### Installation  
 
-	- Modulling
-	
-		`pip install ipynb` 
-
-### Installation   
 Clone the repo   
 
     git clone https://github.com/Dhruvanshu-Joshi/Pothole-Detection.git
@@ -87,13 +134,21 @@ Clone the repo
 <!--Flowchart -->  
 ## Algorithm Flowchart  
 Simplified code structure    
-![Pothole_Detection_Flowchart](https://user-images.githubusercontent.com/103961320/193153591-f62cc7c7-1151-419b-acc2-73f2bedf3319.png)
+<img src ="https://user-images.githubusercontent.com/103961320/193153591-f62cc7c7-1151-419b-acc2-73f2bedf3319.png" width="50%" height="30%"/> 
 
 <!-- RESULTS AND DEMO -->  
 ## Results and Demo
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/LeftImage_1.png" width="30%" height="30%"/> <img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/RightImage_1.png" width="30%" height="30%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Results/Pothole%20Detection/Pothole_depthimage_1.png" width="50%" height="50%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/LeftImage_2.png" width="30%" height="30%"/> <img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Assets/Images/RightImage_2.png" width="30%" height="30%"/>
+
+<img src ="https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/notes/Results/Pothole%20Detection/Pothole_depthimage_2.png" width="50%" height="50%"/>
+
 ![Result_image_1](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix7.png)
 
-![Result_image_2](https://raw.githubusercontent.com/Dhruvanshu-Joshi/Pothole-Detection/main/Results/Pothole%20Detection/Resultwith21Matrix8.png)
 
 <!-- FUTURE WORK -->  
 ## Future Work  

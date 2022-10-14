@@ -21,12 +21,10 @@ def Surface_fit_of_Road(d2,w2,h2,d1,w1,h1,h,w,height,width):
     # Surface fit equation: 
     # z = a1 + a2x + a3y + a4x^2 + a5xy + a6y^2
     # we calculate the residual of actual z value available from depth-map and that we get from this equation and minimize it to get the coefficients
-    
-    start = datetime.now()
 
     cf0 = np.zeros(6)
 
-    res_robust = scipy.optimize.least_squares(fun_residual, cf0, loss='linear', f_scale=1, args=((np.array(w2), np.array(h2)), np.array(d2)))
+    res_robust = scipy.optimize.least_squares(fun_residual, cf0, loss='cauchy', f_scale=100, args=((np.array(w2), np.array(h2)), np.array(d2)))
 
     x1 = np.linspace(0, width, 32)
 
@@ -44,9 +42,5 @@ def Surface_fit_of_Road(d2,w2,h2,d1,w1,h1,h,w,height,width):
     ax.plot_surface(h1,w1,zv,linewidth=0, antialiased=False, shade = True, alpha = 0.5)
     ax.scatter3D(h, w, d1)
     plt.show()
-    
-    end = datetime.now()
-    td = (end - start).total_seconds() * 10**3
-    print(f"The time taken for surface fit is : {td:.03f}ms")
     
     return zv

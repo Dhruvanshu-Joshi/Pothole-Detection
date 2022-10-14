@@ -64,8 +64,8 @@ def pothole_detection(depth,zv,h1,w1,min_d,max_d):
     dst2 = cv2.dilate(diff_3, kernel2, iterations=1)
     dst3 = cv2.erode(dst2, kernel2, iterations=1)
     diff_5 = cv2.morphologyEx(dst3, cv2.MORPH_CLOSE, kernel2)
-    plt.imshow(diff_5 , 'gray')
-    plt.colorbar()
-    plt.show()
+    # plt.imshow(diff_5 , 'gray')
+    # plt.colorbar()
+    # plt.show()
     
     return diff_5
