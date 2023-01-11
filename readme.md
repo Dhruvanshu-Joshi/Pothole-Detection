@@ -35,6 +35,7 @@ We have used OAK-D camera to get the monochromatic stereo images of the surface 
 - [Scikit Learn](https://scikit-learn.org/stable/)  
 - [DepthAI](https://docs.luxonis.com/en/latest/) 
 - [Jupyter notebook](https://jupyter.org)
+- [Google Colab](https://colab.research.google.com)
 
 
 ### File Structure  
@@ -128,6 +129,8 @@ You can create a virtual environment referring [this](https://docs.luxonis.com/e
     - Modulling
     
         `pip install ipynb`
+        
+UPDATE: To run the code on Google colab, run the notebooks.
 
 ### Installation  
 
